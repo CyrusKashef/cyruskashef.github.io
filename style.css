@@ -1,8 +1,15 @@
 body {
-    background-color: #202030;
+    background-color: #0F0F0F;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
 }
 
 header {
+    color: #3EA6FF;
     text-align: center;
     margin: auto 2em;
 }
@@ -12,20 +19,24 @@ section {
 }
 
 i {
+    color: #FFFFFF;
     margin-right: .5em;
 }
 
-p {
+p, li {
+    color: #FFFFFF;
     margin: .2em auto
 }
 
 hr {
+    color: #FFFFFF;
     border: none;
     background-color: lightgray;
     height: 1px;
 }
 
 h1, h2, h3 {
+    color: #3EA6FF;
     font-weight: 100;
     margin-bottom: 0;
 }
