@@ -2,16 +2,16 @@ body {
     background-color: #0F0F0F;
 }
 
-main { 
-    display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 3em;
-}
-
 header {
     color: #3EA6FF;
     text-align: center;
     margin: auto 2em;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
 }
 
 section {
