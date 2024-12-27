@@ -26,6 +26,12 @@ header {
     margin: auto 2em;
 }
 
+div {
+    color: #3EA6FF;
+    text-align: center;
+    margin: auto 2em;
+}
+
 section {
     margin: auto 1em 4em 2em;
 }
@@ -47,7 +53,20 @@ hr {
     height: 1px;
 }
 
-h1, h2, h3 {
+h1 {
+    color: #3EA6FF;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #3EA6FF;
+    font-weight: 100;
+    margin-bottom: 0;
+    padding: 0em 0em 0em 0em;
+}
+
+h3 {
     color: #3EA6FF;
     font-weight: 100;
     margin-bottom: 0;
