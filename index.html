@@ -1,8 +1,9 @@
-<html>
+<html lang="en">
 	<head>
         <link href="style.css" rel="stylesheet">
 		<title>Cyrus Kashef's Resume</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="index.js" defer></script>
 	</head>
 
 	<body>
@@ -12,16 +13,24 @@
 			<hr>
 			    Python Developer/Cloud Engineer
 			<hr>
+            <div>
+                <button class="tablinks" onclick="openTab(event, 'General')" id="defaultOpen">General</button>
+                <button class="tablinks" onclick="openTab(event, 'Experience')">Experience</button>
+                <script>
+                    // Get the element with id="defaultOpen" and click on it
+                    document.getElementById("defaultOpen").click();
+                </script>
+            </div>
 		</header>
 		<main>
-			<article id="mainLeft">
-				<section>
-					<h2><u><b>CONTACT</b></u></h2>
+            <div id="General" class="tabcontent">
+                <section>
+                    <h2><u><b>CONTACT</b></u></h2>
                     <p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:cyrus.kashef3@outlook.com">Email: cyrus.kashef3@outlook.com</a>
                     </p>
-					<p>
+                    <p>
                         <i class="fab fa-github" aria-hidden="true"></i>
                         <a href="github.com/CyrusKashef">GitHub: CyrusKashef</a>
                     </p>
@@ -29,12 +38,19 @@
                         <i class="fab fa-linkedin" aria-hidden="true"></i>
                         <a href="linkedin.com/cyrus-kashef">LinkedIn: cyrus-kashef</a>
                     </p>
-				</section>
-				<section>
-					<h2><u><b>SKILLS</b></u></h2>
+                </section>
+                <hr class="rounded">
+                <section>
+                    <h2><u><b>ABOUT ME</b></u></h2>
+                     <p>
+                        Experienced Software Developer with a demonstrated history of working in the information technology and services industry. Skilled in Python, automation, and communication. Graduated with a Bachelor of Science (BS) focused in Electrical Engineering from The University of Texas at Dallas.
+                     </p>
+                </section>
+                <hr class="rounded">
+                <section>
+                    <h2><u><b>SKILLS</b></u></h2>
                         <h3>CODING/PROGRAMMING</h3>
-                            <p>Python, Java, MySQL,</p>
-                            <p>Scripting, Object-Oriented Programming (OOP), Testing, Automation</p>
+                            <p>Python, Java, MySQL, Scripting, Object-Oriented Programming (OOP), Testing, Automation</p>
                         <h3>CLOUD REPOSITORIES</h3>
                             <p>GitHub, GitLab, Artifactory</p>
                         <h3>APPLICATIONS</h3>
@@ -48,30 +64,11 @@
                         <h3>AWS/CLOUD</h3>
                             <p>Cloud Formation, Lambda, CloudWatch, S3</p>
                         <h3>WORK METHODOLOGY</h3>
-                            <p>Agile Scrum, Kanban, On-Call Support,</p>
-                            <p>Continuous Integration/Continuous Deployment Pipelines (CI/DC)</p>
+                            <p>Agile Scrum, Kanban, On-Call Support, Continuous Integration/Continuous Deployment Pipelines (CI/DC)</p>
                         <h3>OTHER</h3>
                             <p>Team Player, Collaboration, Adaptable, Quick Learning, Documentation</p>
-				</section>
-                <section>
-                    <h2><u><b>PROJECTS</b></u></h2>
-                        <h3>Banjo-Kazooie Randomizer</h3>
-                            <p>
-                                March 2020 - Present
-                            </p>
-                            <p>
-                                The Banjo-Kazooie Randomizer takes the user's software version of the game and creates a patched version configured to the users settings. The objects, enemies, warps, and sequential events can be randomized, as well as some other game variations.
-                            </p>
-                            <p>
-                                <i class="fab fa-github" aria-hidden="true"></i>
-                                <a href="https://github.com/CyrusKashef/BK_Randomizer">GitHub: BK_Randomizer</a>
-                            </p>
-                            <ul>
-                                    <li>Created the tested tool that integrates with other tools, which has gained decent popularity.</li>
-                                    <li>Demonstrated knowledge of best coding and security practices, and encouraged others to follow those practices.</li>
-                                    <li>Gathered scattered information throughout the community and documented the process for making the Randomizer.</li>
-                            </ul>
                 </section>
+                <hr class="rounded">
                 <section>
                     <h2><u>EDUCATION</u></h2>
                         <h3> Bachelor of Science (BS), Electrical Engineering
@@ -86,20 +83,32 @@
                             </p>
                         </h3>
                 </section>
-			</article>
-			<article id="mainRight">
-				<section>
-                    <h2><u><b>ABOUT ME</b></u></h2>
-                     <p>
-                        Experienced Software Developer with a demonstrated history of working in the information technology and services industry. Skilled in Python, automation, and communication. Graduated with a Bachelor of Science (BS) focused in Electrical Engineering from The University of Texas at Dallas.
-                     </p>
-                </section>
+                <span onclick="this.parentElement.style.display='none'">x</span>
+            </div>
+            <div id="Experience" class="tabcontent">
                 <section>
-					<h2><u><b>WORK EXPERIENCE</b></u></h2>
-                        <h3>Cloud Engineer</h3>
+                    <h2><u><b>PROJECTS</b></u></h2>
+                        <h3>Banjo-Kazooie Randomizer</h3>
                             <p>
-                                Fidelity Investments
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <a href="https://github.com/CyrusKashef/BK_Randomizer">GitHub: BK_Randomizer</a>
                             </p>
+                            <p>
+                                March 2020 - Present
+                            </p>
+                            <p>
+                                The Banjo-Kazooie Randomizer takes the user's software version of the game and creates a patched version configured to the users settings. The objects, enemies, warps, and sequential events can be randomized, as well as some other game variations.
+                            </p>
+                            <ul>
+                                    <li>Created the tested tool that integrates with other tools, which has gained decent popularity.</li>
+                                    <li>Demonstrated knowledge of best coding and security practices, and encouraged others to follow those practices.</li>
+                                    <li>Gathered scattered information throughout the community and documented the process for making the Randomizer.</li>
+                            </ul>
+                </section>
+                <hr class="rounded">
+                <section>
+                    <h2><u><b>WORK EXPERIENCE</b></u></h2>
+                        <h3>Fidelity Investments | Cloud Engineer</h3>
                             <p>
                                 July 2023 - Present
                             </p>
@@ -111,10 +120,8 @@
                                 <li>Created documentation Confluence pages and Microsoft PowerPoint presentations to record and share gathered knowledge to teammates and management.</li>
                                 <li>Volunteered as a Community Coordinator to provide a welcoming and engaging atmosphere within the company.</li>
                             </ul>
-                        <h3>Software Developer Engineer (SDE) I</h3>
-                            <p>
-                                Amazon
-                            </p>
+                        <hr class="dashed">
+                        <h3>Amazon Inc | Software Developer Engineer (SDE) I</h3>
                             <p>
                                 October 2021 - December 2022
                             </p>
@@ -125,10 +132,8 @@
                                 <li>On the job learning to keep up with a fast pace and rapidly changing environment.</li>
                                 <li>Designed and deployed an in-house software system to replace a costly third party application.</li>
                             </ul>
-                        <h3>Software Developer</h3>
-                            <p>
-                                OCEUS Networks
-                            </p>
+                        <hr class="dashed">
+                        <h3>OCEUS Networks | Software Developer</h3>
                             <p>
                                 October 2018 - October 2021
                             </p>
@@ -140,10 +145,8 @@
                                 <li>Team collaboration, including white boarding sessions and code reviews.</li>
                                 <li>Variety of Python coding to emulate soak testing, analyze large amounts of data to display in a presentable format, callable endpoints to create libraries and API structures, and automate re-occurring tasks.</li>
                             </ul>
-                        <h3>Software Developer</h3>
-                            <p>
-                                InfoSys Limited
-                            </p>
+                        <hr class="dashed">
+                        <h3>InfoSys Limited | Software Developer</h3>
                             <p>
                                 July 2017 - September 2018
                             </p>
@@ -156,10 +159,8 @@
                                 <li>Developed automation software using SQL in order to query SAP HANA and display the results in excel sheets so the data could be further tested and analyzed.</li>
                                 <li>Developed software using the Xlrd/Xlsxwriter libraries in order to quickly and efficiently record data in an excel document and produce an easy visual excel file, highlighting key figures and displaying counts of various patterns in the document.</li>
                             </ul>
-                        <h3>Software Developer Intern</h3>
-                            <p>
-                                Cisco
-                            </p>
+                        <hr class="dashed">
+                        <h3>Cisco | Software Developer Intern</h3>
                             <p>
                                 June 2015 - August 2015
                             </p>
@@ -169,8 +170,9 @@
                             <ul>
                                 <li>Developed testing scripts in order to upload new software and check if the latest version of the software functioned properly.</li>
                             </ul>
-				</section>
-			</article>
+                </section>
+                <span onclick="this.parentElement.style.display='none'">x</span>
+            </div>
 		</main>
 	</body>
 </html>
