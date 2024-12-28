@@ -7,6 +7,7 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: .2em;
+    font-size: 2vw;
 }
 
 main { 
@@ -18,32 +19,37 @@ main {
 h2 {
     font-size: 3vw;
     padding-bottom: 1em;
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 header {
     color: #3EA6FF;
     text-align: center;
     margin: auto 2em;
+    font-size: 2vw;
 }
 
 div {
     color: #3EA6FF;
     text-align: center;
     margin: auto 2em;
+    font-size: 2vw;
 }
 
 section {
     margin: auto 1em 4em 2em;
+    font-size: 2vw;
 }
 
 i {
     color: #FFFFFF;
     margin-right: .5em;
+    font-size: 2vw;
 }
 
 a {
     color: #a8d7ff;
+    font-size: 2vw;
 }
 
 hr {
@@ -51,12 +57,14 @@ hr {
     border: none;
     background-color: lightgray;
     height: 1px;
+    font-size: 2vw;
 }
 
 h1 {
     color: #0088ff;
     font-weight: 100;
     margin-bottom: 0;
+    font-size: 2vw;
 }
 
 h2 {
@@ -64,22 +72,26 @@ h2 {
     font-weight: 100;
     margin-bottom: 0;
     padding: 0em 0em 0em 0em;
+    font-size: 2vw;
 }
 
 h3 {
     color: #a8d7ff;
     margin-bottom: 0;
+    font-size: 2vw;
 }
 
 p {
     color: #FFFFFF;
     margin: .2em auto;
+    font-size: 2vw;
 }
 
 li {
     color: #FFFFFF;
     margin: .2em auto;
     text-align: left;
+    font-size: 2vw;
 }
 
 img {
