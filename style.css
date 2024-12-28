@@ -18,6 +18,7 @@ main {
 h2 {
     font-size: 3vw;
     padding-bottom: 1em;
+    font-size: 2.5vw;
 }
 
 header {
@@ -70,6 +71,7 @@ h1 {
     color: #0088ff;
     font-weight: 100;
     margin-bottom: 0;
+    font-size: 2.5vw;
 }
 
 h2 {
@@ -77,13 +79,14 @@ h2 {
     font-weight: 100;
     margin-bottom: 0;
     padding: 0em 0em 0em 0em;
+    font-size: 2vw;
 }
 
 h3 {
     color: #a8d7ff;
     font-weight: 100;
     margin-bottom: 0;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 img {
