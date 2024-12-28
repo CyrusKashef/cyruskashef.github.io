@@ -85,21 +85,21 @@ ul {
     color: #FFFFFF;
     margin: .2em auto;
     text-align: left;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 li {
     color: #FFFFFF;
     margin: .2em auto;
     text-align: left;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 img {
     border: 1px solid #ddd;
     border-radius: 50%;
     padding: 5px;
-    width: 150px;
+    width: 8vw;
 }
 
 /* Style the tab */
