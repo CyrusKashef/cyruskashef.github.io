@@ -43,13 +43,6 @@ i {
     margin-right: .5em;
 }
 
-li {
-    color: #FFFFFF;
-    margin: .2em auto;
-    text-align: left;
-    font-size: 2vw;
-}
-
 a {
     color: #a8d7ff;
 }
@@ -85,6 +78,13 @@ h3 {
 p {
     color: #FFFFFF;
     margin: .2em auto;
+    font-size: 1.5vw;
+}
+
+li {
+    color: #FFFFFF;
+    margin: .2em auto;
+    text-align: left;
     font-size: 1.5vw;
 }
 
