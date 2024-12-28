@@ -7,7 +7,7 @@ h1 {
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: .2em;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 main { 
@@ -19,37 +19,37 @@ main {
 h2 {
     font-size: 3vw;
     padding-bottom: 1em;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 header {
     color: #3EA6FF;
     text-align: center;
     margin: auto 2em;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 div {
     color: #3EA6FF;
     text-align: center;
     margin: auto 2em;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 section {
     margin: auto 1em 4em 2em;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 i {
     color: #FFFFFF;
     margin-right: .5em;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 a {
     color: #a8d7ff;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 hr {
@@ -57,41 +57,39 @@ hr {
     border: none;
     background-color: lightgray;
     height: 1px;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 h1 {
     color: #0088ff;
-    font-weight: 100;
     margin-bottom: 0;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 h2 {
     color: #50adff;
-    font-weight: 100;
     margin-bottom: 0;
     padding: 0em 0em 0em 0em;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 h3 {
     color: #a8d7ff;
     margin-bottom: 0;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 p {
     color: #FFFFFF;
     margin: .2em auto;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 li {
     color: #FFFFFF;
     margin: .2em auto;
     text-align: left;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 img {
